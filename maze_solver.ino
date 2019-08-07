@@ -67,9 +67,7 @@ void loop() {
 
   readSensors();
   stabilize();
-  //Print();
-  goFowd();
-  delay(100);
+  decide();
 }
 
 
