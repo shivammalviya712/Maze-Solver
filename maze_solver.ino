@@ -3,7 +3,7 @@
 
 //Settings
 int max_dist = 4000;
-double Kp = 0.7, Ki = 0, Kd = 0.5;
+double Kp = 0.7, Ki = 0.1, Kd = 0.5;
 int baseSpeed = 150;
 int lExtSpeed = 30;  //Error
 int turnTime = 350;
