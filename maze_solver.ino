@@ -8,8 +8,8 @@ int baseSpeed = 150;
 int lExtSpeed = 30;  //Error
 int turnTime = 350;
 int uTurnTime = 750;
-int goFowdTime = 500;
-int thershold = 70;
+int goFowdTime = 250;
+int thershold = 40;
 int fThershold = 20; 
 int outLowLim = 100;
 int outHigLim = 225;
@@ -68,6 +68,7 @@ void loop() {
   readSensors();
   stabilize();
   decide();
+  stopAll();
 }
 
 
